@@ -7,8 +7,8 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: Diform
-  m_Shader: {fileID: -6465566751694194690, guid: cde614815efc30344ad7d405c0cf8ee9, type: 3}
+  m_Name: shrink
+  m_Shader: {fileID: -6465566751694194690, guid: b7d452019598aad43b78dff2e251cf3b, type: 3}
   m_Parent: {fileID: 0}
   m_ModifiedSerializedProperties: 0
   m_ValidKeywords: []
@@ -38,13 +38,16 @@ Material:
         m_Offset: {x: 0, y: 0}
     m_Ints: []
     m_Floats:
-    - _Curvature: -25
     - _QueueControl: 0
     - _QueueOffset: 0
-    m_Colors: []
+    - _alpha: 0
+    - _radio: 0
+    m_Colors:
+    - _targetPos: {r: 0, g: 0, b: 0, a: 0}
+    - _targetTransform: {r: 0, g: 0, b: 0, a: 0}
   m_BuildTextureStacks: []
   m_AllowLocking: 1
---- !u!114 &1811247150182647324
+--- !u!114 &1663610090373383104
 MonoBehaviour:
   m_ObjectHideFlags: 11
   m_CorrespondingSourceObject: {fileID: 0}
